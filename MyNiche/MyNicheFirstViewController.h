@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyNicheFirstViewController : UIViewController
+- (IBAction)addARackButtonClicked:(id)sender;
 
 @end

@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
+        self.title = NSLocalizedString(@"Boutique", @"Boutique");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
@@ -36,4 +36,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)addARackButtonClicked:(id)sender {
+    UIButton* btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    
+}
 @end
